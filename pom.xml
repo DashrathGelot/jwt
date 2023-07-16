@@ -7,7 +7,16 @@
     <groupId>com.dashspring</groupId>
     <artifactId>jwt</artifactId>
     <version>0.0.1</version>
+    <description>
+        JWT authentication library
+    </description>
+    <url>https://github.com/DashrathGelot/jwt</url>
 
+    <developers>
+        <developer>
+            <name>Dash Gelot</name>
+        </developer>
+    </developers>
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
