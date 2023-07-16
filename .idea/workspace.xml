@@ -7,6 +7,7 @@
     <list default="true" id="be6f1bc9-8721-4a6a-a57a-1c70ab7cf7f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JWTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JWTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +57,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.JWTTest.tokenGen">
+  <component name="RunManager" selected="JUnit.JWTTest.expiry">
     <configuration name="JWTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jwt" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JWTTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWTTest.expiry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwt" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JWTTest" />
+      <option name="METHOD_NAME" value="expiry" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JWTTest.expiry" />
         <item itemvalue="JUnit.JWTTest.tokenGen" />
         <item itemvalue="JUnit.JWTTest" />
       </list>
@@ -91,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689473707427</updated>
-      <workItem from="1689473708580" duration="9273000" />
+      <workItem from="1689473708580" duration="9647000" />
+      <workItem from="1689527812000" duration="2651000" />
     </task>
     <servers />
   </component>

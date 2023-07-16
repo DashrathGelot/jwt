@@ -1,4 +1,5 @@
 import com.dashspring.JWT;
+import io.jsonwebtoken.ExpiredJwtException;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -32,5 +33,15 @@ public class JWTTest {
     void validateAndGetUserName() throws IllegalAccessException {
         assertEquals("Dash", jwt.validateAndGetUserName(token));
         assertThrows(Exception.class, () -> jwt.validateAndGetUserName("other"));
+    }
+
+    @Test
+    @DisplayName("Expiry token")
+    void expiry() {
+        assertThrows(IllegalAccessException.class,
+                () -> jwt.validateAndGetUserName(
+                        JWT.getInstance().setExpiry(0L).generate("Dash")
+                )
+        );
     }
 }
